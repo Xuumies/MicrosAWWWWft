@@ -1,0 +1,41 @@
+.deal-box {
+    display: inline-block
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.banner {
+    color: rgb(255, 255, 255);
+    background-color: #0067b8;
+    padding: 5px;
+    text-align: center;
+}
+
+.big-fancy-pic {
+    background-color: rgb(228, 228, 228);
+    padding: 300px
+}
