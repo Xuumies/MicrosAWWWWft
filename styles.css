@@ -1,5 +1,37 @@
 .deal-box {
-    display: inline-block
+    display: inline-block;
+    padding: 50px;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+    padding: 300px;
+}
+
+.inline-fancy-pic-link-set {
+    background-color: #0067b8;
+    color: white;
+    padding: 10px;
+}
+
+.inline-set-fancy {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #0067b8;
+}
+
+.inline-set-fancier {
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.inline-set-fancy:hover {
+    text-decoration: underline;
+}
+
+.inline-set-fancier:hover {
+    text-decoration: underline;
 }
 
 nav {
@@ -9,7 +41,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
 }
 
 nav li {
@@ -31,11 +63,33 @@ nav a:hover {
 .banner {
     color: rgb(255, 255, 255);
     background-color: #0067b8;
-    padding: 5px;
+    padding: 1px;
     text-align: center;
 }
 
 .big-fancy-pic {
-    background-color: rgb(228, 228, 228);
-    padding: 300px
+    background-color: rgb(238, 238, 238);
+    padding: 175px
+}
+
+.big-fancy-pics {
+    width: 65%;
+    height: auto;
+    max-width: fit-content;
+}
+
+.inline-pic-text {
+    width: 65%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.in {
+    display: inline-block;
+    padding: 50px;
 }
